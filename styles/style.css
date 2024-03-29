@@ -1,0 +1,84 @@
+/* 自定义css */
+.login {
+  display: flex;
+  flex-direction: column; /* 将子元素纵向排列 */
+  margin: 5px;
+}
+.login-item {
+flex: 1;
+}
+#footer {
+  text-align: center;
+}
+.try {
+  border-radius: 10% 30% 50% 70%;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #5b6dcd;
+  color: #fff;
+  padding: 10px;
+  transition: all .3s ease-in;
+}
+/* UI组件 */
+/* 链接 */
+.el-link {
+  margin-right: 8px;
+}
+.el-link .el-icon--right.el-icon {
+  vertical-align: text-bottom;
+}
+
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.el-row {
+  margin-bottom: 20px;
+}
+.el-row:last-child {
+  margin-bottom: 0;
+}
+.el-col {
+  border-radius: 4px;
+}
+
+.grid-content {
+  border-radius: 4px;
+  min-height: 36px;
+}
+
+.el-alert {
+  margin: 20px 0 0;
+}
+.el-alert:first-child {
+  margin: 0;
+}
+
+.el-button + .el-button {
+  margin-left: 8px;
+}
+
+/* 走马灯 */
+.demonstration {
+  color: var(--el-text-color-secondary);
+}
+
+.el-carousel__item h3 {
+  color: #475669;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+  text-align: center;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+  background-color: #d3dce6;
+}
